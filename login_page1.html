@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+		<style>
+			*
+			{
+				margin: 0;
+				padding: 0;
+				font-family: sans-serif;
+				
+			}
+			body
+			{   
+				height: 700px;
+				width: 100%;
+				background:linear-gradient(pink,purple);
+				box-sizing: border-box;
+				background-repeat: no-repeat;
+				display: block;
+
+			}
+			.box
+			{
+				height: 70%;
+				width: 80%;
+				margin: 100px auto;
+				background-color: white;
+			}
+			.image
+			{
+				height: 100%;
+				width: 50%;
+				background:linear-gradient(rgba(0,0,255,0.3),blue),
+				url(https://img.freepik.com/free-photo/portrait-smiling-young-girl-using-mobile-phone_171337-1627.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			.login
+			{
+				background: white;
+				height: 100%;
+				width: 50%;
+				margin: -490px 50%;
+			}
+			.image h1
+			{
+			 color: white;
+			 text-align: center;
+			 width: 430px;
+			 padding-top: 50px;
+			 font-size: 100px;
+			}
+			.login h1,p
+			{
+				width: 430px;
+				padding-top: 40px;
+				padding-left: 30px;
+			}
+			.login input
+			{
+				display: block;
+				width: 430px;
+				padding: 10px ;
+				margin: 20px;
+				border:none;
+				border-block: none;
+				border-bottom: 2px solid black;
+			}
+			.y input
+			{
+				display: inline-block;
+				width: auto;
+				
+				margin: 10px;
+			}
+			.button
+			{
+				background: green;
+				border-radius: 10px;
+				color: white;
+				text-align:right;
+			}
+		</style>
+</head>
+<body>
+		<div class="box">
+			<div class="image"><h1>Hello World.</H1>
+
+			</div>
+			<div class="login">
+					<h1>Login</h1>
+					<p>Don't have an account? <a href="login">Creat an account,</a> it takes less than a minute</p>
+
+					<input type="text" name="" placeholder="John Doe">
+					<input type="password" name="" placeholder="********"><br>
+
+					<div class="y"><input type="checkbox"checked>Remembr Me 
+						<span style="margin: 150px; width:430px;">Forget Password</span><br>
+						<input type="button" class="button" value="Login">
+						</div>
+						
+						
+
+			</div>
+		</div>
+
+</body>
+</html>
